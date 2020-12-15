@@ -112,7 +112,23 @@ hr {
   color: var(--primary-color);
   font-weight: 900;
 }
+.project-section .exp-list {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  padding-inline-start: 0rem;
+  padding: 10px;
+}
 
+.project-section .exp-listitem {
+  padding: 10px;
+}
+.project-section .icon {
+  padding-left: 2rem;
+  font-size: 2rem;
+  text-align: center;
+  color: var(--primary-color);
+}
 /* Footer */
 .footer {
   background-color: var(--primary-color);
@@ -136,4 +152,24 @@ hr {
 
 .footer ul {
   padding-inline-start: 0px;
+}
+
+/** projects **/
+.showcase-list {
+  padding: 2rem;
+}
+
+.project-details {
+  display: flex;
+  justify-content: space-between;
+}
+
+/** blogs **/
+.showcase-blog {
+  padding-bottom: 6rem;
+}
+
+.link-primary {
+  color: var(--primary-color);
+  font-weight: 900;
 }
