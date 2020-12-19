@@ -188,3 +188,9 @@ th {
   text-align: left;
   padding: 8px;
 }
+
+.run-code {
+  display: block;
+  color: var(--primary-color);
+  font-weight: 900;
+}
