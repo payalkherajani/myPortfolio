@@ -125,7 +125,7 @@ hr {
 }
 .project-section .icon {
   padding-left: 2rem;
-  font-size: 2rem;
+  font-size: 1rem;
   text-align: center;
   color: var(--primary-color);
 }
