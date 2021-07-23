@@ -162,6 +162,8 @@ hr {
 .project-details {
   display: flex;
   justify-content: space-between;
+  gap: 2rem;
+  margin-bottom: 10px;
 }
 
 /** blogs **/
